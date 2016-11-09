@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link rel="stylesheet" type="text/css" href="../css/reset.css">
+		<link rel="stylesheet" type="text/css" href="../css/public.css">
+		<link rel="stylesheet" type="text/css" href="../css/header.css">
+		<link rel="stylesheet" type="text/css" href="../css/index.css">
+		<link rel="stylesheet" type="text/css" href="../css/base.css">
+		<script type="text/javascript" src="../js/jquery.js"></script>
+		<style type="text/css">
+
+		</style>
+		<title>拍卖</title>
+	</head>
+
+	<body>
+		<!-- 头部start -->
+		<header>
+			<div class="width macen title">
+				<span class="fl">淘艺</span>
+				<span class="fr mar40">
+				静雅轩<a href="login.html" class="fcred">[退出]</a>
+			</span>
+			</div>
+		</header>
+		<!-- 头部end -->
+		<!-- 搜索 start -->
+		<div class="width macen topsearch">
+			<a href="index.html">
+				<div class="logo fl"></div>
+			</a>
+			<div class="search mat30">
+				<ul class="flp fs14 fcred">
+					<li class="pa510 active">拍品</li>
+					<li class="pa510">易物商品</li>
+					<li class="pa510">专场</li>
+					<li class="pa510">作者</li>
+					<li class="pa510">活动</li>
+				</ul>
+				<div>
+					<input type="text" class="bored2 text_search"><button class="do_search active fs16 fw">搜索</button>
+				</div>
+			</div>
+			<div class="play fr">
+				<ul class="frp">
+					<li>
+						<a href="self.html" class="fcred">我的淘艺<span class="disib"></span></a>
+					</li>
+					<li>
+						<a href="inform.html" class="fcred">消息</a>
+					</li>
+					<li>
+						<a href="strcollet.html" class="fcred">收藏夹</a>
+					</li>
+					<li>
+						<a href="javascript:publish()" class="fcred">发布</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 搜索 end -->
+		<!-- 页面主体 -->
+		<div class="main macen width pore">
+			<!-- 导航条 start -->
+			<nav class="nav">
+				<ul class="flp">
+					<li class="wai p_child bgred">
+						<a href="aucinfo.html"><span>拍品</span>商品分类</a>
+					</li>
+					<li class="wai">
+						<a href="index.html">首页</a>
+					</li>
+					<li class="wai">
+						<a href="auction.html">拍卖</a>
+					</li>
+					<li class="wai">
+						<a href="barter.html">易物</a>
+					</li>
+					<li class="wai">
+						<a href="stretch.html">活动</a>
+					</li>
+					<li class="wai">
+						<a href="download.html">APP下载</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- 导航条 end -->
+			<!-- 轮播图框 start -->
+			<div class="slide width">
+				<!-- 轮播图 start -->
+				<div id="slide">
+					<div>
+						<a href="http://www.baidu.com" target="_blank"><img src="../img/top.jpg" /></a>
+						<p class="title">张大千作品专场 隆重上线</p>
+					</div>
+					<div>
+						<a href="http://www.baidu.com" target="_blank"><img src="../img/top2.jpg" /></a>
+						<p class="title">张大千作品专场 隆重上线</p>
+					</div>
+					<div>
+						<a href="http://www.baidu.com" target="_blank"><img src="../img/top3.jpg" /></a>
+						<p class="title">张大千作品专场 隆重上线</p>
+					</div>
+					<div>
+						<a href="http://www.baidu.com" target="_blank"><img src="../img/top4.png" /></a>
+						<p class="title">张大千作品专场 隆重上线</p>
+					</div>
+				</div>
+				<!-- 轮播图end -->
+			</div>
+			<ul class="child_nav poab">
+				<li>
+					<a href="classifyauc.html">中国书画</a>
+				</li>
+				<li>
+					<a href="classifyauc.html">西画雕塑</a>
+				</li>
+				<li>
+					<a href="classifyauc.html">问完杂项</a>
+				</li>
+				<li>
+					<a href="classifyauc.html">珠宝首饰</a>
+				</li>
+				<li>
+					<a href="classifyauc.html">玉石翡翠</a>
+				</li>
+				<li>
+					<a href="classifyauc.html">陶瓷紫砂</a>
+				</li>
+				<li>
+					<a href="classifyauc.html">邮品钱币</a>
+				</li>
+				<li>
+					<a href="classifyauc.html">木器家具</a>
+				</li>
+				<li>
+					<a href="classifyauc.html">古籍善本</a>
+				</li>
+				<li>
+					<a href="classifyauc.html">其他</a>
+				</li>
+			</ul>
+			<!-- 轮播图框end -->
+			<!-- 商品展示  start -->
+			<div class="width macen goods">
+				<div class="good good3 fr">
+					<div class="label">
+						<span class="title">正在热拍</span>
+						<a href="teacherauc.html" class="posir">更多<i>></i></a>
+					</div>
+					<div class="goodbag">
+						<div class="goodfl">
+							<div class="fl godbag">
+								<a href="teacherauc.html"><img src="../img/zpr1.png"></a>
+								<div class="goodname">
+									<a href="teacherauc.html">王小清 | 烟霞自一川 </a>
+								</div>
+								<div class="collect textlef">
+									当前价：<span class="fcred">2000元</span>
+								</div>
+							</div>
+							<div class="fl godbag">
+								<a href="teacherauc.html"><img src="../img/zpr2.png"></a>
+								<div class="goodname">
+									<a href="teacherauc.html">王小清 | 烟霞自一川</a>
+								</div>
+								<div class="collect textlef">
+									当前价：<span class="fcred">2000元</span>
+								</div>
+							</div>
+							<div class="fl godbag">
+								<a href="teacherauc.html"><img src="../img/zpr3.png"></a>
+								<div class="goodname">
+									<a href="teacherauc.html">王小清 | 烟霞自一川</a>
+								</div>
+								<div class="collect textlef">
+									当前价：<span class="fcred">2000元</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="good wi900">
+					<div class="label">
+						<span class="title">今日专场</span>
+						<a href="todayauc.html" class="posir">更多<i>></i></a>
+					</div>
+					<div class="goodbag">
+						<div class="goodfl">
+							<div class="godbag">
+								<div class="wi655 fr">
+									<div class="goodname textlef linh50">
+										<a href="aucinfo.html">国工 蒋升【容天】原矿 全手工紫砂壶专场</a>
+										<div class="fr fs12">
+											<span class="fcred saled icon">20</span>件拍品
+											<span class="fcred clled icon">123</span>人收藏
+										</div>
+									</div>
+									<div class="collect textlef linh50">
+										<span class="fcred paisd icon fs16"> 距结束：00天 08时 01分 56秒</span>
+										<div class="fr">
+											<span class="fcred joined icon">123</span>人参拍
+											<span class="fcred bided icon">123</span>次出价
+										</div>
+									</div>
+									<div class="pad10 pmzc5">
+										<a href="aucinfo.html"><img src="../img/jzr1.png"></a>
+										<a href="aucinfo.html"><img src="../img/jzr2.png"></a>
+										<a href="aucinfo.html"><img src="../img/jzr3.png"></a>
+										<a href="aucinfo.html"><img src="../img/jzr4.png"></a>
+										<a href="aucinfo.html"><img src="../img/jzr5.png"></a>
+									</div>
+								</div>
+								<div class="wi243">
+									<a href="aucinfo.html"><img src="../img/jzl2.png"></a>
+								</div>
+							</div>
+							<div class="godbag">
+								<div class="wi655 fr">
+									<div class="goodname textlef linh50">
+										<a href="aucinfo.html">国工 蒋升【容天】原矿 全手工紫砂壶专场</a>
+										<div class="fr fs12">
+											<span class="fcred saled icon">20</span>件拍品
+											<span class="fcred clled icon">123</span>人收藏
+										</div>
+									</div>
+									<div class="collect textlef linh50">
+										<span class="fcred paisd icon fs16"> 距结束：00天 08时 01分 56秒</span>
+										<div class="fr">
+											<span class="fcred joined icon">123</span>人参拍
+											<span class="fcred bided icon">123</span>次出价
+										</div>
+									</div>
+									<div class="pad10 pmzc5">
+										<a href="aucinfo.html"><img src="../img/jzr1.png"></a>
+										<a href="aucinfo.html"><img src="../img/jzr2.png"></a>
+										<a href="aucinfo.html"><img src="../img/jzr3.png"></a>
+										<a href="aucinfo.html"><img src="../img/jzr4.png"></a>
+										<a href="aucinfo.html#"><img src="../img/jzr5.png"></a>
+									</div>
+								</div>
+								<div class="wi243">
+									<a href="aucinfo.html"><img src="../img/jzl1.png"></a>
+								</div>
+							</div>
+							<a href="aucinfo.html"><img src="../img/pmad.png" class="ma10-0 wi900"></a>
+							<div class="godbag">
+								<div class="wi655 fr">
+									<div class="goodname textlef linh50">
+										<a href="aucinfo.html">国工 蒋升【容天】原矿 全手工紫砂壶专场</a>
+										<div class="fr fs12">
+											<span class="fcred saled icon">20</span>件拍品
+											<span class="fcred clled icon">123</span>人收藏
+										</div>
+									</div>
+									<div class="collect textlef linh50">
+										<span class="fcred paisd icon fs16"> 距结束：00天 08时 01分 56秒</span>
+										<div class="fr">
+											<span class="fcred joined icon">123</span>人参拍
+											<span class="fcred bided icon">123</span>次出价
+										</div>
+									</div>
+									<div class="pad10 pmzc5">
+										<a href="aucinfo.html"><img src="../img/jzr1.png"></a>
+										<a href="aucinfo.html"><img src="../img/jzr2.png"></a>
+										<a href="aucinfo.html"><img src="../img/jzr3.png"></a>
+										<a href="aucinfo.html"><img src="../img/jzr4.png"></a>
+										<a href="aucinfo.html"><img src="../img/jzr5.png"></a>
+									</div>
+								</div>
+								<div class="wi243">
+									<a href="aucinfo.html"><img src="../img/jzl3.png"></a>
+								</div>
+							</div>
+							<div class="godbag">
+								<div class="wi655 fr">
+									<div class="goodname textlef linh50">
+										<a href="aucinfo.html">国工 蒋升【容天】原矿 全手工紫砂壶专场</a>
+										<div class="fr fs12">
+											<span class="fcred saled icon">20</span>件拍品
+											<span class="fcred clled icon">123</span>人收藏
+										</div>
+									</div>
+									<div class="collect textlef linh50">
+										<span class="fcred paisd icon fs16"> 距结束：00天 08时 01分 56秒</span>
+										<div class="fr">
+											<span class="fcred joined icon">123</span>人参拍
+											<span class="fcred bided icon">123</span>次出价
+										</div>
+									</div>
+									<div class="pad10 pmzc5">
+										<a href="aucinfo.html"><img src="../img/jzr1.png"></a>
+										<a href="aucinfo.html"><img src="../img/jzr2.png"></a>
+										<a href="aucinfo.html"><img src="../img/jzr3.png"></a>
+										<a href="aucinfo.html"><img src="../img/jzr4.png"></a>
+										<a href="aucinfo.html"><img src="../img/jzr5.png"></a>
+									</div>
+								</div>
+								<div class="wi243">
+									<a href="aucinfo.html"><img src="../img/jzl4.png"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="aucinfo.html"><img src="../img/jpb.jpg" class="width"></a>
+				<div class="good width good7">
+					<div class="goodbag">
+						<div class="goodfl ovhid">
+							<div class="fl godbag">
+								<ul class="pmbul">
+									<li>中国书画</li>
+									<li>
+										<a href="aucinfo.html">孙克维绘画作品专场</a>
+									</li>
+									<li>
+										<a href="aucinfo.html">田永庆国画专场《画画很好玩》</a>
+									</li>
+									<li>
+										<a href="aucinfo.html">幽花细雨--康颖作品专场</a>
+									</li>
+									<li>
+										<a href="aucinfo.html">夏方明绘画作品专场</a>
+									</li>
+									<li>
+										<a href="aucinfo.html">诗心画笔--津皖豫画院名家专场</a>
+									</li>
+								</ul>
+								<a href="aucinfo.html"><img src="../img/pmbo.png"></a>
+							</div>
+							<div class="fl godbag">
+								<ul class="pmbul">
+									<li>西画雕塑</li>
+									<li>
+										<a href="aucinfo.html">孙克维绘画作品专场</a>
+									</li>
+									<li>
+										<a href="aucinfo.html">田永庆国画专场《画画很好玩》</a>
+									</li>
+									<li>
+										<a href="aucinfo.html">幽花细雨--康颖作品专场</a>
+									</li>
+									<li>
+										<a href="aucinfo.html">夏方明绘画作品专场</a>
+									</li>
+									<li>
+										<a href="aucinfo.html">诗心画笔--津皖豫画院名家专场</a>
+									</li>
+								</ul>
+								<a href="aucinfo.html"><img src="../img/pmbo.png"></a>
+							</div>
+							<div class="fl godbag">
+								<ul class="pmbul">
+									<li>文玩杂项</li>
+									<li>
+										<a href="aucinfo.html">孙克维绘画作品专场</a>
+									</li>
+									<li>
+										<a href="aucinfo.html">田永庆国画专场《画画很好玩》</a>
+									</li>
+									<li>
+										<a href="aucinfo.html">幽花细雨--康颖作品专场</a>
+									</li>
+									<li>
+										<a href="aucinfo.html">夏方明绘画作品专场</a>
+									</li>
+									<li>
+										<a href="aucinfo.html">诗心画笔--津皖豫画院名家专场</a>
+									</li>
+								</ul>
+								<a href="aucinfo.html"><img src="../img/pmbo.png"></a>
+							</div>
+							<div class="fl godbag">
+								<ul class="pmbul">
+									<li>陶瓷紫砂</li>
+									<li>
+										<a href="aucinfo.html">孙克维绘画作品专场</a>
+									</li>
+									<li>
+										<a href="aucinfo.html">田永庆国画专场《画画很好玩》</a>
+									</li>
+									<li>
+										<a href="aucinfo.html">幽花细雨--康颖作品专场</a>
+									</li>
+									<li>
+										<a href="aucinfo.html">夏方明绘画作品专场</a>
+									</li>
+									<li>
+										<a href="aucinfo.html">诗心画笔--津皖豫画院名家专场</a>
+									</li>
+								</ul>
+								<a href="aucinfo.html"><img src="../img/pmbo.png"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 商品展示  end -->
+		</div>
+		<!-- 页面主体结束 -->
+		<!-- footer start -->
+		<footer>
+			<ul class="width macen flp out">
+				<li class="p_li">
+					<ul class="inner">
+						<li><span class="h3">关于</span></li>
+						<li>
+							<a href="aucinfo.html">关于淘艺</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">版权声明</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">关于隐私</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">免责声明</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">网站地图</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">诚聘英才</a>
+						</li>
+					</ul>
+				</li>
+				<li class="p_li">
+					<ul class="inner">
+						<li><span class="h3">栏目</span></li>
+						<li>
+							<a href="aucinfo.html">淘艺易购</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">淘艺拍卖</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">淘艺活动</a>
+						</li>
+					</ul>
+				</li>
+				<li class="p_li">
+					<ul class="inner">
+						<li><span class="h3">帮助</span></li>
+						<li>
+							<a href="aucinfo.html">淘艺规则</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">常见问题</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">帮助中心</a>
+						</li>
+					</ul>
+				</li>
+				<li class="p_li">
+					<ul class="inner">
+						<li><span class="h3">联系</span></li>
+						<li>
+							<a href="aucinfo.html">在线提问</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">联系我们</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">淘艺微博</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">淘艺微信</a>
+						</li>
+					</ul>
+				</li>
+				<li class="p_li">
+					<ul class="inner">
+						<li><span class="h3">服务</span></li>
+						<li>
+							<a href="aucinfo.html">推广服务</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">在线展览服务</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">艺术品定制服务</a>
+						</li>
+					</ul>
+				</li>
+				<li class="p_li">
+					<ul class="inner">
+						<li><span class="h3">友情链接</span></li>
+						<li>
+							<a href="aucinfo.html">搜藏网</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">有画网</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">壹号收藏</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">中华丹青网</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">博雅艺术院</a>
+						</li>
+						<li>
+							<a href="aucinfo.html">中国楷书网</a>
+						</li>
+						<li>
+							<a href="aucinfo.html" class="more">更多>></a>
+						</li>
+					</ul>
+				</li>
+				<li class="p_li">
+					<ul class="inner">
+						<li><span class="h3">版权信息</span></li>
+						<li class="copyright">淘艺会员所发布展示的“作品”“文章”版权归原作者所有，任何商业用途均须联系作者。如未经授权用作他处，作者将保留追究侵权者法律责任的权利。Copyright 2010-2020宁波淘艺文化有限公司宁波十月Inc. 版权所有浙ICP备10206008号增值电信业务经营许可证浙B2-20100409</li>
+					</ul>
+				</li>
+			</ul>
+		</footer>
+		<!-- footer end  -->
+		<script type="text/javascript" src="../js/slide.js"></script>
+		<script type="text/javascript" src="../js/layer/layer.js"></script>
+		<script type="text/javascript" src="../js/msg.js"></script>
+		<script type="text/javascript" src="../js/public.js"></script>
+		<script type="text/javascript">
+			// 启用轮播图
+			$(function() {
+				$("#slide").kinMaxShow({
+					height: 350,
+					intervalTime: 2,
+					button: {
+						normal: {
+							width: '8px',
+							height: '8px',
+							lineHeight: '8px',
+							left: '230px',
+							bottom: '12px',
+							background: '#fff',
+							'border-radius': '4px',
+							marginRight: '10px',
+							border: '0px'
+						},
+						focus: {
+							background: '#b8243b',
+							border: '0px'
+						}
+					}
+				});
+			});
+		</script>
+	</body>
+
+</html>

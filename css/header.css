@@ -1,0 +1,78 @@
+@charset "utf-8";
+.logo{
+	background: url('../img/logo.png') no-repeat;
+	width: 230px;
+	height: 55px;
+}
+.search{
+	height: 55px;
+	width: 855px;
+}
+.search ul li{
+	margin-right: 20px;
+	cursor: pointer;
+}
+.active{
+	background: #b8243b;
+	color: #fff;
+}
+.text_search{
+	width: 490px;
+	height: 30px;
+	padding-left: 10px;
+}
+.topsearch{
+	height: 115px;
+}
+.do_search{
+	height: 34px;
+	width: 115px;
+}
+.play{
+	height: 55px;
+	margin-top: -17px;
+}
+.play ul li{
+	margin-left:10px;
+	border-right:1px solid #b8243b;
+	padding-right: 10px;
+}
+.play ul li:first-child{
+	border-right: none;
+}
+.play ul li span{
+	background: url('../icon/icon_sj.png') no-repeat;
+	width: 10px;
+	height: 5px;
+	margin-left: 10px;
+}
+/*footer start*/
+footer .out{
+	margin-top: 15px;
+}
+.out .p_li{
+	margin-right: 45px;
+}
+.out .p_li:last-child{
+	float: right;
+	margin-right: 0px;
+}
+.inner li{
+	clear: left !important;
+}
+.inner li{
+	color: #949494;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.inner li .more{
+	color: #ac8753;
+}
+.inner li .h3{
+	color: #fff;
+}
+.inner .copyright{
+	width: 380px;
+	line-height: 26px;
+}
+/*footer end*/

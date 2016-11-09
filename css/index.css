@@ -1,0 +1,567 @@
+@charset "utf-8";
+/*nav  start*/
+.nav{
+	height: 35px;
+	background: #c2a880;
+	z-index: 3;
+}
+.nav .flp .wai{
+	color: #fff;
+	height: 35px;
+	line-height: 35px;
+	font-size:16px;
+	font-weight: 400;
+	padding:0px 42px;
+	cursor: pointer;
+}
+.nav .flp .wai:first-child{
+	padding-left:10px;
+	width: 138px;
+}
+.nav .flp .wai:hover{
+	background: #b8243b;
+}
+.child_nav{
+	height: 350px;
+	left: 0px;
+	background: #b8243b;
+	top: 36px;
+	z-index: 3;
+	overflow: hidden;
+}
+.child_nav li{
+	width: 153px;
+	height: 34px;
+	line-height: 34px;
+	color: #fff;
+	border-bottom:1px solid #fff;
+	clear: left;
+	padding-left: 37px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	background-size: 17px 17px;
+}
+.child_nav li:nth-child(1){
+	background-image: url('../icon/icon_gs.png');
+}
+.child_nav li:nth-child(2){
+	background-image: url('../icon/icon_xs.png');
+}
+.child_nav li:nth-child(3){
+	background-image: url('../icon/icon_wz.png');
+}
+.child_nav li:nth-child(4){
+	background-image: url('../icon/icon_zs.png');
+}
+.child_nav li:nth-child(5){
+	background-image: url('../icon/icon_yf.png');
+}
+.child_nav li:nth-child(6){
+	background-image: url('../icon/icon_tz.png');
+}
+.child_nav li:nth-child(7){
+	background-image: url('../icon/icon_yq.png');
+}
+.child_nav li:nth-child(8){
+	background-image: url('../icon/icon_mj.png');
+}
+.child_nav li:nth-child(9){
+	background-image: url('../icon/icon_gs.png');
+}
+.child_nav li:nth-child(10){
+	background-image: url('../icon/icon_qt.png');
+}
+/*nav  end*/
+/*轮播图框  start*/
+.slide{
+	height: 350px;
+	margin-top: 1px;
+	position: relative;
+}
+/*右边广告窗 start*/
+.advan{
+	position: absolute;
+	top: 1px;
+	right: 0px;
+	height: 350px;
+	/*float: right; */
+	width: 203px;
+	z-index: 3;
+}
+.advan .topr1{
+	height: 120px;
+	background: url('../img/topr1.jpg') no-repeat;
+	background-size: 203px 120px;
+}
+.advan .toprt{
+	height: 125px;
+	width: 163px;
+	background: #ebebeb;
+	padding: 0px 20px;
+}
+.advan .topr2{
+	height: 104px;
+	background: url('../img/topr2.jpg') no-repeat;
+	position: relative;
+	background-size: 203px 104px;
+}
+.topr2 .text{
+	height: 50px;
+	width: 203px;
+	background: rgba(174,47,58,0.8);
+	position: absolute;
+	bottom: 0px;
+}
+.topr2 .text p{
+	color: #fff;
+	text-align: right;
+	font-size: 14px;
+	line-height: 25px;
+}
+.toprt .h3{
+	height: 30px;
+	line-height: 30px;
+	color: #646464;
+	font-size: 15px;
+	width: 163px;
+	text-align: center;
+	border-bottom: 1px solid #fff; 
+}
+.toprt ul li{
+	line-height: 30px;
+	height: 30px;
+}
+.pmzcad{
+	position: absolute;
+	top: 40px;
+	right: 65px;
+	height: 270px;
+	/*float: right; */
+	width: 230px;
+	z-index: 3;
+}
+.pmzcad .countdown{
+	height: 40px;
+	padding:10px;
+	color: #fff;
+	background: rgba(172,135,83,0.8);
+}
+.pmzcad .countdown p:last-child{
+	margin-left: 40px;
+	font-size: 14px;
+}
+.pmzcad .info{
+	height: 190px;
+	padding: 10px 5px;
+	background: rgba(255,255,255,0.8);
+}
+.pmzcad .info h3,.pmzcad .info p{
+	margin-left: 15px;
+	margin-top: 5px;
+}
+.pmzcad .info .infobor{
+	height: 50px;
+    padding: 15px 20px 0px;
+    margin-top: 15px;
+    border-top: 1px solid #e0e0e0;
+}
+.infobor div{
+	height: 30px;
+}
+/*右边广告窗  end*/
+/*轮播图框  end*/
+/*商品块 的标签名 start*/
+.goods{
+	margin-top: 10px;
+}
+.label{
+	padding: 8px 0px;
+	position: relative;
+	border-bottom: 1px solid #c2a880;
+}
+.label .title{
+	padding-left: 14px;
+	border-left:8px solid #c12736;
+	font-size: 15px;
+	color: #3e3e3e;
+	height: 20px;
+}
+.label a{
+	position: absolute;
+	right: 0px;
+}
+.label a i{
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	background: #c12736;
+	color: #fff;
+	margin-left:5px;
+	padding:0px 4px;
+}
+.strfo .label{
+	border: 0px;
+}
+/*商品块 标签名 end*/
+
+/*商品模块  start*/
+.goodbag{
+	padding-bottom: 15px;
+}
+.good1 .goodbag .goodfr{
+	width: 260px;
+	margin-top: 10px;
+}
+.godbag{
+	border: 1px solid #f2f2f2;
+}
+.good1 .goodbag .goodfl .godbag{
+	margin-left: 20px;
+	width: 208px;
+}
+.godbag{
+	margin-top: 10px;
+}
+.good2 .goodbag .goodft .godbag,.good2 .goodbag .goodft .godbag:nth-child(4n+1){
+	margin-left: 9px;
+}
+.good8 .goodbag .goodft .godbag,.good8 .goodbag .goodft .godbag:nth-child(4n+1){
+	margin-left: 12px;
+}
+.good6 .goodbag .goodft .godbag{
+	width: 258px;
+	margin-left: 48px;
+}
+.good4 .goodbag .goodfl .godbag{
+	margin-left: 13px;
+}
+.good3{
+	width: 260px;
+	clear: right;
+}
+.noborder .label{
+	border: none;
+}
+.good4{
+	width: 900px;
+}
+.goodbag .goodfl .godbag:nth-child(4n+1),.goodbag .goodft .godbag:nth-child(4n+1){
+	margin-left: 0px;
+}
+.good1 .goodbag .goodfr .gftext{
+	height: 135px;
+	margin-bottom: 10px;
+	padding: 20px;
+}
+.good2 .goodbag .goodft .godbag:nth-child(3n+1){
+	margin-left: 0px;
+}
+.good8 .goodbag .goodft .godbag:nth-child(5n+1){
+	margin-left: 0px;
+}
+.gftext ul li{
+	height: 27px;
+	line-height: 27px;
+	color: #fff;
+	font-size: 14px;
+}
+.blimg{
+	width: 90px;
+    display: inline-block;
+    float: left;
+}
+.disin{
+	display: inline;
+}
+.blimg img:first-child{
+	margin-bottom:2px; 
+}
+.author ul{
+	border: 1px solid #ebebeb;
+}
+.author ul li{
+	border-top: 1px solid #ebebeb;
+	padding: 15px;
+}
+.author ul li span{
+	margin-right: 10px;
+	font-size: 14px;
+	color: #acacac;
+}
+.author ul li a{
+	color: #5e5a5b;
+}
+.author ul li:first-child{
+	border: none;
+}
+.top_author{
+	width: 100px;
+	height: 105px;
+	float: right;
+}
+.top_author a{
+	font-size: 16px;
+	color:#000;
+}
+.top_author p{
+	margin-top: 10px;
+	color: #acacac;
+}
+.actc{
+	width: 145px;
+	height: 105px;
+	float: right;
+}
+.actc a{
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 10px;
+}
+.activity{
+	margin-top: 10px;
+}
+.activity ul{
+	background: #f5f5f5;
+	padding: 20px;
+}
+.activity ul li{
+	height: 30px;
+	margin-bottom: 10px;
+	line-height: 20px;
+	font-size: 14px;
+}
+.textrig .fl{
+	font-size: 16px;
+	color: #000;
+}
+.good7 .goodbag .goodfl .godbag{
+	width: 275px;
+	height: 380px;
+	padding: 10px;
+	border:none;
+	border-left: 1px solid #f0f0f0;
+}
+.good7 .goodbag .goodfl .godbag:first-child{
+	border-left: none;
+}
+/*鼠标经过效果 商品 处 start*/
+.godbag a img{
+	transition:transform .5s ease 0s;
+	-webkit-transition:transform .5s ease 0s;
+}
+.godbag a img:hover{
+	-webkit-transform:scale(1.5);
+	transform:scale(1.1);
+}
+/*鼠标经过效果 商品 处 start*/
+/* 商品模块 end*/
+/*  拍卖页面自定义样式  start*/
+.linh50{
+	height: 50px !important;
+	line-height: 50px !important;
+}
+.pmzc5 a img{
+	margin-left: 7px;
+}
+.pmzc5 a:first-child img{
+	margin-left: 0px;
+}
+.pmbul{
+	margin: 10px 0px;
+}
+.pmbul li{
+	height: 30px;
+	line-height: 30px;
+	color: #898989;
+	font-size: 14px;
+}
+.pmbul li:first-child{
+	color: #000;
+	font-size: 20px;
+}
+.KMSPrefix_slide_image_item{
+	background-size: 1185px 350px !important;
+}
+/*  拍卖页面自定义样式  start*/
+/*面包屑导航、标签、分页    start*/
+.directories{
+	height: 50px;
+	line-height: 50px;
+	color: #000;
+}
+.directories span:first-child{
+	padding-left: 10px;
+}
+.pstatus{
+	border-top: 1px solid #c2a880;
+}
+.pstatus a > span{
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	text-align: center;
+	padding: 0px 20px;
+}
+.pstatus a > span.active{
+	background: #c2a880;
+}
+.pagediv{
+	height: 30px;
+	line-height: 30px;
+}
+.pagediv a > div{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    width: 35px;
+    margin-top: 4px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin-left: 10px;
+}
+.pagediv a > div:hover{
+	background: #f1f1f1;
+}
+.pagediv a > div.next{
+	margin: 0px 10px 0px 0px;
+	border-left: 0px;
+}
+/*面包屑导航、标签、分页    end*/
+/*子级分类  start*/
+.child_crect{
+	border: 1px solid #dcdcdc;
+}
+.child_crect li {
+	height: 38px;
+	line-height: 38px;
+	border-top: 1px solid #dcdcdc;
+	padding-left: 10px;
+}
+.child_crect li:first-child{
+	border-top: 0px;
+}
+.child_crect li span{
+	font-size: 14px;
+	color: #727272;
+	margin-right: 50px;
+}
+.child_crect li span:first-child{
+	color: #000;
+	font-weight: 500;
+	margin-right: 60px;
+}
+.xqcheck{
+	width: 24px;
+	height: 24px;
+	color: #fff;
+	cursor: pointer;
+	background: #fff;
+	display: inline-block;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 25px;
+	border: 1px solid #e3e3e3;
+}
+/*子级分类  end*/
+/*图片大小统一约束 start*/
+.good1 .goodbag .goodfl .godbag a img{
+	width: 208px;
+	height: 292px;
+}
+.good1 .goodbag .goodfr .gfimg a img{
+	width: 260px;
+	height: 180px;
+}
+.good2 .goodbag .goodft .godbag a img{
+	width: 387px;
+	height: 196px;
+}
+.good4 .goodbag .goodfl .godbag a img{
+	width: 213px;
+	height: 213px;
+}
+.good3 .author ul li a img{
+	width: 76px;
+	height: 106px;
+}
+.good3 .goodbag .goodfl .godbag a img{
+	width: 260px;
+	height: 260px;
+}
+.blimg a img{
+	width: 90px;
+	height: 90px;
+}
+img.mal1{
+	width: 167px;
+	height: 182px;
+}
+.good8 .goodbag .goodft .godbag a img{
+	width: 225px;
+	height: 225px;
+}
+.imgh313 .goodbag .goodft .godbag a img{
+	width: 225px;
+	height: 313px;
+}
+.wi243 a img{
+	width: 243px;
+	height: 243px;
+}
+.pmzc5 a img{
+	width: 118px;
+	height: 118px;
+}
+.pmbul a img{
+	width: 274px;
+	height: 169px;
+}
+.activity .mat20 a img{
+	width: 99px;
+	height: 138px;
+}
+/*图片大小统一约束  end*/
+/*提醒框  start*/
+.setmsg{
+	height: 118px;
+	width: 420px;
+}
+.setmsg div{
+	padding: 17px 0px;
+	height: 26px;
+	line-height: 26px;
+	border-bottom: 1px solid #e3e3e3;
+	font-weight: 400px;
+	font-size: 16px;
+}
+.setmsg .timemsg input{
+	width: 50px;
+	height: 24px;
+	border: 1px solid #b6b6b6;
+	padding-left: 5px;
+	margin: 0px 10px;
+}
+.layui-layer-btn a {
+    width: 133px;
+    height: 35px !important;
+    border: 0px !important;
+    line-height: 35px !important;
+    text-align: center;
+    background: #b92434 !important;
+    padding: 0 15px;
+    border: 1px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    font-weight: 400;
+    color: #fff !important;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.layui-layer-btn a:hover{
+	background: rgba(0,0,0,0) !important;
+	color: #b92434 !important;
+	border: 1px solid #b92434 !important;
+}
+/*提醒框   end*/

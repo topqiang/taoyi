@@ -1,0 +1,97 @@
+@charset "utf-8";
+/*login   start*/
+.content{
+	background: url('../img/login_bg.png');
+	position: relative;
+	height: 580px;
+	margin-bottom: 70px;
+}
+.login{
+	height: 430px;
+	width: 350px;
+	background: #f0f0f0;
+	position: absolute;
+	top: 100px;
+	right: 150px;
+}
+.login .title{
+	height: 70px;
+	width: 310px;
+	margin: 0px auto;
+}
+.login .title h2{
+	height: 70px;
+	line-height: 70px;
+	float: left;
+	font-size: 24px;
+}
+.login .title span{
+	height: 70px;
+	line-height: 70px;
+	float: right;
+}
+.login .title span a{
+	color: #ac8753;
+}
+.title i{
+	width: 18px;
+	height: 18px;
+	float: right;
+	display: inline-block;
+	margin-top: 26px;
+	border-radius: 12px;
+	background: #ac8753;
+	color: #fff;
+	margin-right: 10px;
+	line-height: 18px;
+	text-align: center;
+}
+.login_form{
+	width: 310px;
+	margin: 0px auto;
+}
+.login_form li{
+	margin: 25px auto;
+
+}
+.login_form li input{
+	border: 1px solid #dddedd;
+	width: 290px;
+	margin: 0px 10px 0px !important;
+}
+.fr{
+	float: right;
+	display: block;
+}
+.other_login{
+	width: 310px;
+	height: 1px;
+	background: #aaa8ad;
+	margin: 40px auto;
+}
+.other_login h3{
+	font-size: 14px;
+	text-align: center;
+	background: #f0f0f0;
+	width: 120px;
+	height: 30px;
+	line-height: 3px;
+	display: block;
+	margin: -15px 95px;
+}
+.other_login div{
+	width: 220px;
+	margin: 20px auto;
+}
+.other_login div .img{
+	width: 50px;
+	height: 50px;
+	float: left;
+	background: #fff;
+	border-radius: 25px;
+	margin: 0px 10px;
+}
+.other_login div .img img{
+	margin: 10px 9px;
+}
+/*login   end*/

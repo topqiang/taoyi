@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/public.css">
+	<link rel="stylesheet" type="text/css" href="../css/header.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<style type="text/css">
+	
+	</style>
+	<title>淘艺网</title>
+</head>
+<body>
+	<!-- 头部start -->
+	<header>
+		<div class="width macen title">
+			<span class="fl">淘艺</span>
+			<span class="fr mar40">
+				静雅轩<a href="login.html" class="fcred">[退出]</a>
+			</span>
+		</div>
+	</header>
+	<!-- 头部end -->
+	<!-- 搜索 start -->
+	<div class="width macen topsearch">
+		<a href="index.html"><div class="logo fl"></div></a>
+		<div class="search mat30">
+			<ul class="flp fs14 fcred">
+				<li class="pa510 active">拍品</li>
+				<li class="pa510">易物商品</li>
+				<li class="pa510">专场</li>
+				<li class="pa510">作者</li>
+				<li class="pa510">活动</li>
+			</ul>
+			<div>
+				<input type="text" class="bored2 text_search"><button class="do_search active fs16 fw">搜索</button>
+			</div>
+		</div>
+		<div class="play fr">
+			<ul class="frp">
+				<li><a href="self.html" class="fcred">我的淘艺<span class="disib"></span></a></li>
+				<li><a href="inform.html" class="fcred">消息</a></li>
+				<li><a href="strcollet.html" class="fcred">收藏夹</a></li>
+				<li><a href="javascript:publish()" class="fcred">发布</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 搜索 end -->
+	<!-- 页面主体 -->
+	<div class="main macen width pore">
+		<!-- 导航条 start -->
+		<nav class="nav">
+			<ul class="flp">
+				<li class="wai p_child bgred">
+					<a href="#"><span>拍品/易物</span>商品分类</a>
+				</li>
+				<li class="wai"><a href="index.html"><span id="span">首页</span></a></li>
+				<li class="wai"><a href="auction.html">拍卖</a></li>
+				<li class="wai"><a href="barter.html">易物</a></li>
+				<li class="wai"><a href="stretch.html">活动</a></li>
+				<li class="wai"><a href="download.html">APP下载</a></li>
+			</ul>
+		</nav>
+		<!-- 导航条 end -->
+		<!-- 轮播图框 start -->
+		<div class="slide width">
+			<!-- 轮播图 start -->
+			<div id="slide">
+			    <div>
+			         <a href="#" target="_blank"><img src="../img/top.jpg"/></a>
+			    </div>
+			    <div>
+			         <a href="#" target="_blank"><img src="../img/top2.jpg"/></a>
+			    </div>
+			    <div>
+			        <a href="#" target="_blank"><img src="../img/top3.jpg"/></a>
+			    </div>
+			    <div>
+			        <a href="#" target="_blank"><img src="../img/top4.png"/></a>
+			    </div>
+			</div>
+			<!-- 轮播图end -->
+			<div class="advan">
+				<a href="#"><div class="topr1"></div></a>
+				<div class="toprt">
+					<div class="h3">淘艺通知</div>
+					<ul>
+						<li><a href="inform.html">您有收到新的易物申请！</a></li>
+						<li><a href="inform.html">关于假冒客服诈骗的声明</a></li>
+						<li><a href="inform.html">淘艺APP升级通知</a></li>
+					</ul>
+				</div>
+				<a href="aucinfo.html">
+					<div class="topr2">
+						<div class="text">
+							<p>榕新斋旧藏专场</p>
+							<p>距结束：00天 08时 01分 56秒</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<ul class="child_nav poab">
+			<li><a href="classifyauc.html">中国书画</a></li>
+			<li><a href="classifyauc.html">西画雕塑</a></li>
+			<li><a href="classifyauc.html">问完杂项</a></li>
+			<li><a href="classifyauc.html">珠宝首饰</a></li>
+			<li><a href="classifyauc.html">玉石翡翠</a></li>
+			<li><a href="classifyauc.html">陶瓷紫砂</a></li>
+			<li><a href="classifyauc.html">邮品钱币</a></li>
+			<li><a href="classifyauc.html">木器家具</a></li>
+			<li><a href="classifyauc.html">古籍善本</a></li>
+			<li><a href="classifyauc.html">其他</a></li>
+		</ul>
+		<!-- 轮播图框end -->
+		<!-- 商品展示  start -->
+		<div class="width macen goods">
+			<div class="good good1">
+				<div class="label">
+					<span class="title">最新展览</span>
+					<a href="barter.html" class="posir">更多<i>></i></a>
+				</div>
+				<div class="goodbag ">
+					<div  class="fr goodfr">
+						<div class="gftext bgred">
+							<ul>
+								<li><a href="inform.html">太璞如琢崔如琢艺术展</a></li>
+								<li><a href="inform.html">2016APDF*C首届亚太设计创意节</a></li>
+								<li><a href="inform.html">井观摄影展No.04 漫步关西の微…</a></li>
+								<li><a href="inform.html">勒梅特夫妇的国际影像收藏展</a></li>
+								<li><a href="inform.html">故宫博物院牡丹题材文物特展</a></li>
+							</ul>
+						</div>
+						<div class="gfimg">
+							<a href="barinfo.html"><img src="../img/zxr.jpg"></a>
+						</div>
+					</div>
+					<div  class="goodfl ovhid">
+						<div class="fl godbag">
+							<a href="barinfo.html"><img src="../img/zx.jpg"></a>
+							<div class="goodname"><a href="barinfo.html">ADA画廊 | 建筑与音乐展</a></div>
+							<div class="collect textrig">
+								<span class="fcred clled icon">123</span>人收藏
+							</div>
+						</div>
+						<div class="fl godbag">
+							<a href="barinfo.html"><img src="../img/zx2.jpg"></a>
+							<div class="goodname"><a href="barinfo.html">太璞如琢-崔如琢艺术故…</a></div>
+							<div class="collect textrig">
+								<span class="fcred clled icon">123</span>人收藏
+							</div>
+						</div>
+						<div class="fl godbag">
+							<a href="barinfo.html"><img src="../img/zx3.jpg"></a>
+							<div class="goodname"><a href="barinfo.html">太璞如琢-崔如琢艺术故…</a></div>
+							<div class="collect textrig">
+								<span class="fcred clled icon">123</span>人收藏
+							</div>
+						</div>
+						<div class="fl godbag">
+							<a href="barinfo.html"><img src="../img/zx4.jpg"></a>
+							<div class="goodname"><a href="barinfo.html">ADA画廊 | 建筑与音乐展</a></div>
+							<div class="collect textrig">
+								<span class="fcred clled icon">123</span>人收藏
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="good good1">
+				<div class="label">
+					<span class="title">最新资讯</span>
+					<a href="barinfo.html" class="posir">更多<i>></i></a>
+				</div>
+				<div class="goodbag ">
+					<div  class="fr goodfr">
+						<div class="gftext bgyellow">
+							<ul>
+								<li><a href="barinfo.html">太璞如琢崔如琢艺术展</a></li>
+								<li><a href="barinfo.html">2016APDF*C首届亚太设计创意节</a></li>
+								<li><a href="barinfo.html">井观摄影展No.04 漫步关西の微…</a></li>
+								<li><a href="barinfo.html">勒梅特夫妇的国际影像收藏展</a></li>
+								<li><a href="barinfo.html">故宫博物院牡丹题材文物特展</a></li>
+							</ul>
+						</div>
+						<div class="gfimg">
+							<a href="barinfo.html"><img src="../img/zxr.jpg"></a>
+						</div>
+					</div>
+					<div  class="goodfl ovhid">
+						<div class="fl godbag">
+							<a href="barinfo.html"><img src="../img/zx.jpg"></a>
+							<div class="goodname"><a href="#">ADA画廊 | 建筑与音乐展 </a></div>
+							<div class="collect textrig">
+								<span class="fcred clled icon">123</span>人收藏
+							</div>
+						</div>
+						<div class="fl godbag">
+							<a href="barinfo.html"><img src="../img/zx2.jpg"></a>
+							<div class="goodname"><a href="#">太璞如琢-崔如琢艺术故…</a></div>
+							<div class="collect textrig">
+								<span class="fcred clled icon">123</span>人收藏
+							</div>
+						</div>
+						<div class="fl godbag">
+							<a href="barinfo.html"><img src="../img/zx3.jpg"></a>
+							<div class="goodname"><a href="#">太璞如琢-崔如琢艺术故…</a></div>
+							<div class="collect textrig">
+								<span class="fcred clled icon">123</span>人收藏
+							</div>
+						</div>
+						<div class="fl godbag">
+							<a href="barinfo.html"><img src="../img/zx4.jpg"></a>
+							<div class="goodname"><a href="#">ADA画廊 | 建筑与音乐展</a> </div>
+							<div class="collect textrig">
+								<span class="fcred clled icon">123</span>人收藏
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="good good2">
+				<div class="label">
+					<span class="title">精品专场</span>
+					<a href="todayauc.html" class="posir">更多<i>></i></a>
+				</div>
+				<div class="goodbag">
+					<div class="goodft ovhid">
+						<div class="fl godbag">
+							<a href="individual-session.html"><img src="../img/jp1.jpg"></a>
+							<div class="goodname"><a href="individual-session.html">ADA画廊 | 建筑与音乐展 </a></div>
+							<div class="collect textrig">
+								<span class="fcred saled icon">20</span>件拍品
+								<span class="fcred clled icon">123</span>人收藏
+								<span class="fcred joined icon">123</span>人参拍
+								<span class="fcred bided icon">123</span>次出价
+							</div>
+						</div>
+						<div class="fl godbag">
+							<a href="individual-session.html"><img src="../img/jp2.jpg"></a>
+							<div class="goodname"><a href="individual-session.html">太璞如琢-崔如琢艺术故…</a></div>
+							<div class="collect textrig">
+								<span class="fcred saled icon">20</span>件拍品
+								<span class="fcred clled icon">123</span>人收藏
+								<span class="fcred joined icon">123</span>人参拍
+								<span class="fcred bided icon">123</span>次出价
+							</div>
+						</div>
+						<div class="fl godbag">
+							<a href="individual-session.html"><img src="../img/jp3.jpg"></a>
+							<div class="goodname"><a href="individual-session.html">太璞如琢-崔如琢艺术故…</a></div>
+							<div class="collect textrig">
+								<span class="fcred saled icon">20</span>件拍品
+								<span class="fcred clled icon">123</span>人收藏
+								<span class="fcred joined icon">123</span>人参拍
+								<span class="fcred bided icon">123</span>次出价
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="#"><img src="../img/jpb.jpg" class="ma10-0 width"></a>
+			<div class="fr">
+				<div class="good good3 noborder">
+					<div class="label">
+						<span class="title">展览热榜</span>
+						<a href="" class="posir">更多热榜<i>></i></a>
+					</div>
+					<div class="author">
+						<ul>
+							<li>
+								<span class="fcred">01</span>
+								<a href="#"><img src="../img/author1.png"></a>
+								<div class="top_author">
+									<a href="#">版画艺术家董建生</a>
+									<p>河北画院专职画家，国家一级美术师。系中国美术…</p>
+								</div>
+							</li>
+							<li><span>02</span><a href="#">书法艺术家 刘东明</a></li>
+							<li><span>03</span><a href="#">工笔国画艺术家 卢津意</a></li>
+							<li><span>04</span><a href="#">山水国画艺术家 王小清</a></li>
+							<li><span>05</span><a href="#">国画艺术家 康福昌</a></li>
+							<li><span>06</span><a href="#">国画艺术家 丘霖</a></li>
+							<li><span>07</span><a href="#">篆刻艺术家 贺少安</a></li>
+							<li><span>08</span><a href="#">书法艺术家 崔国安</a></li>
+							<li><span>09</span><a href="#">青年艺术家 王晶晶</a></li>
+							<li><span>></span><a href="#">查看更多</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="good good3">
+					<div class="label">
+						<span class="title">最新出价</span>
+						<a href="auction.html" class="posir">更多<i>></i></a>
+					</div>
+					<div class="activity">
+						<ul>
+							<li>
+								<p><a href="aucinfo.html">20世纪 法国捷信老式三脚架</a></p>
+								<span class="fcred">¥600元</span>
+							</li>
+							<li>
+								<p><a href="aucinfo.html">清光绪 粉彩花鸟纹盘</a></p>
+								<span class="fcred">¥600元</span>
+							</li>
+							<li>
+								<p><a href="aucinfo.html">民国 粉彩“朱茂记造”弥勒摆件</a></p>
+								<span class="fcred">¥600元</span>
+							</li>
+							<li>
+								<p><a href="aucinfo.html">现代 金丝楠木龙胆水波金丝首饰盒</a></p>
+								<span class="fcred">¥600元</span>
+							</li>
+							<li>
+								<p><a href="aucinfo.html">唐伟民 清风</a></p>
+								<span class="fcred">¥600元</span>
+							</li>
+							<li>
+								<p><a href="aucinfo.html">田永庆 行书七言联</a></p>
+								<span class="fcred">¥600元</span>
+							</li>
+							<li>
+								<p><a href="aucinfo.html">孙克维 功臣回首</a></p>
+								<span class="fcred">¥600元</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="good good4">
+				<div class="label">
+					<span class="title">热门拍品</span>
+					<a href="auction" class="posir">更多<i>></i></a>
+				</div>
+				<div class="goodbag">
+					<div class="goodfl ovhid">
+						<div class="fl godbag">
+							<a href="aucinfo.html"><img src="../img/rp.jpg"></a>
+							<div class="goodname"><a href="#">ADA画廊 | 建筑与音乐展 </a></div>
+							<div class="collect textlef">
+								当前价：<span class="fcred">2000元</span>
+							</div>
+						</div>
+						<div class="fl godbag">
+							<a href="aucinfo.html"><img src="../img/rp2.jpg"></a>
+							<div class="goodname"><a href="#">太璞如琢-崔如琢艺术故…</a></div>
+							<div class="collect textlef">
+								当前价：<span class="fcred">2000元</span>
+							</div>
+						</div>
+						<div class="fl godbag">
+							<a href="aucinfo.html"><img src="../img/rp3.jpg"></a>
+							<div class="goodname"><a href="#">太璞如琢-崔如琢艺术故…</a></div>
+							<div class="collect textlef">
+								当前价：<span class="fcred">2000元</span>
+							</div>
+						</div>
+						<div class="fl godbag">
+							<a href="aucinfo.html"><img src="../img/rp4.jpg"></a>
+							<div class="goodname"><a href="#">ADA画廊 | 建筑与音乐展 </a></div>
+							<div class="collect textlef">
+								当前价：<span class="fcred">2000元</span>
+							</div>
+						</div>
+						<div class="fl godbag">
+							<a href="aucinfo.html"><img src="../img/rp5.jpg"></a>
+							<div class="goodname"><a href="#">太璞如琢-崔如琢艺术故…</a></div>
+							<div class="collect textlef">
+								当前价：<span class="fcred">2000元</span>
+							</div>
+						</div>
+						<div class="fl godbag">
+							<a href="aucinfo.html"><img src="../img/rp6.jpg"></a>
+							<div class="goodname"><a href="#">太璞如琢-崔如琢艺术故…</a></div>
+							<div class="collect textlef">
+								当前价：<span class="fcred">2000元</span>
+							</div>
+						</div>
+						<div class="fl godbag">
+							<a href="aucinfo.html"><img src="../img/rp7.jpg"></a>
+							<div class="goodname"><a href="#">太璞如琢-崔如琢艺术故…</a></div>
+							<div class="collect textlef">
+								当前价：<span class="fcred">2000元</span>
+							</div>
+						</div>
+						<div class="fl godbag">
+							<a href="aucinfo.html"><img src="../img/rp8.jpg"></a>
+							<div class="goodname"><a href="#">太璞如琢-崔如琢艺术故…</a></div>
+							<div class="collect textlef">
+								当前价：<span class="fcred">2000元</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="good good4">
+				<div class="label">
+					<span class="title">易物商品</span>
+					<a href="#" class="posir">更多<i>></i></a>
+				</div>
+				<div class="goodbag">
+					<div  class="goodfl ovhid">
+						<div class="fl godbag">
+							<a href="barinfo.html"><img src="../img/bp1.jpg"></a>
+							<div class="goodname"><a href="barinfo.html">太璞如琢-崔如琢艺术故…</a></div>
+							<div class="collect textlef"><a href="#">琚瑶阁</a></div>
+						</div>
+						<div class="fl godbag">
+							<a href="barinfo.html"><img src="../img/bp2.jpg"></a>
+							<div class="goodname"><a href="barinfo.html">太璞如琢-崔如琢艺术故…</a></div>
+							<div class="collect textlef"><a href="#">琚瑶阁</a></div>
+						</div>
+						<div class="fl godbag">
+							<a href="barinfo.html"><img src="../img/bp3.jpg"></a>
+							<div class="goodname"><a href="barinfo.html">太璞如琢-崔如琢艺术故…</a></div>
+							<div class="collect textlef"><a href="#">琚瑶阁</a></div>
+						</div>
+						<div class="fl godbag">
+							<a href="barinfo.html"><img src="../img/bp4.jpg"></a>
+							<div class="goodname"><a href="barinfo.html">太璞如琢-崔如琢艺术故…</a></div>
+							<div class="collect textlef"><a href="#">琚瑶阁</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="good good6">
+				<div class="label">
+					<span class="title">精品店铺</span>
+					<a href="butishop.html" class="posir">更多<i>></i></a>
+				</div>
+				<div class="goodbag ovhid">
+					<div class="goodft">
+						<div class="fl godbag">
+							<div class="collect textrig">
+								<div class="fl"><a href="#">雅趣斋</a></div>
+								<div class="fr"><span class="fcred clled icon">123</span>人收藏</div>
+							</div>
+							<div class="blimg">
+								<a href="barinfo.html"><img src="../img/jdpl1.jpg"></a>
+								<a href="barinfo.html"><img src="../img/jdpl2.jpg"></a>
+							</div>
+							<a href="barinfo.html"><img src="../img/jdpr.jpg" class="mal1"></a>
+						</div>
+						<div class="fl godbag">
+							<div class="collect textrig">
+								<div class="fl"><a href="#">雅趣斋</a></div>
+								<div class="fr"><span class="fcred clled icon">123</span>人收藏</div>
+							</div>
+							<div class="blimg">
+								<a href="barinfo.html"><img src="../img/jdpl1.jpg"></a>
+								<a href="barinfo.html"><img src="../img/jdpl2.jpg"></a>
+							</div>
+							<a href="barinfo.html"><img src="../img/jdpr.jpg" class="mal1"></a>
+						</div>
+						<div class="fl godbag">
+							<div class="collect textrig">
+								<div class="fl"><a href="#">雅趣斋</a></div>
+								<div class="fr"><span class="fcred clled icon">123</span>人收藏</div>
+							</div>
+							<div class="blimg">
+								<a href="barinfo.html"><img src="../img/jdpl1.jpg"></a>
+								<a href="barinfo.html"><img src="../img/jdpl2.jpg"></a>
+							</div>
+							<a href="barinfo.html"><img src="../img/jdpr.jpg" class="mal1"></a>
+						</div>
+						<div class="fl godbag">
+							<div class="collect textrig">
+								<div class="fl"><a href="#">雅趣斋</a></div>
+								<div class="fr"><span class="fcred clled icon">123</span>人收藏</div>
+							</div>
+							<div class="blimg">
+								<a href="barinfo.html"><img src="../img/jdpl1.jpg"></a>
+								<a href="barinfo.html"><img src="../img/jdpl2.jpg"></a>
+							</div>
+							<a href="barinfo.html"><img src="../img/jdpr.jpg" class="mal1"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 商品展示  end -->
+	</div>
+	<!-- 页面主体结束 -->
+	<!-- footer start -->
+	<footer>
+		<ul class="width macen flp out">
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">关于</span></li>
+					<li><a href="#">关于淘艺</a></li>
+					<li><a href="#">版权声明</a></li>
+					<li><a href="#">关于隐私</a></li>
+					<li><a href="#">免责声明</a></li>
+					<li><a href="#">网站地图</a></li>
+					<li><a href="#">诚聘英才</a></li>
+				</ul>
+			</li>
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">栏目</span></li>
+					<li><a href="#">淘艺易购</a></li>
+					<li><a href="#">淘艺拍卖</a></li>
+					<li><a href="#">淘艺活动</a></li>
+				</ul>
+			</li>
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">帮助</span></li>
+					<li><a href="#">淘艺规则</a></li>
+					<li><a href="#">常见问题</a></li>
+					<li><a href="#">帮助中心</a></li>
+				</ul>
+			</li>
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">联系</span></li>
+					<li><a href="#">在线提问</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">淘艺微博</a></li>
+					<li><a href="#">淘艺微信</a></li>
+				</ul>
+			</li>
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">服务</span></li>
+					<li><a href="#">推广服务</a></li>
+					<li><a href="#">在线展览服务</a></li>
+					<li><a href="#">艺术品定制服务</a></li>
+				</ul>
+			</li>
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">友情链接</span></li>
+					<li><a href="#">搜藏网</a></li>
+					<li><a href="#">有画网</a></li>
+					<li><a href="#">壹号收藏</a></li>
+					<li><a href="#">中华丹青网</a></li>
+					<li><a href="#">博雅艺术院</a></li>
+					<li><a href="#">中国楷书网</a></li>
+					<li><a href="#" class="more">更多>></a></li>
+				</ul>
+			</li>
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">版权信息</span></li>
+					<li class="copyright">淘艺会员所发布展示的“作品”“文章”版权归原作者所有，任何商业用途均须联系作者。如未经授权用作他处，作者将保留追究侵权者法律责任的权利。Copyright 2010-2020宁波淘艺文化有限公司宁波十月Inc. 版权所有浙ICP备10206008号增值电信业务经营许可证浙B2-20100409</li>
+				</ul>
+			</li>
+		</ul>
+	</footer>
+	<!-- footer end  -->
+	<script type="text/javascript" src="../js/slide.js"></script>
+	<script type="text/javascript" src="../js/layer/layer.js"></script>
+	<script type="text/javascript" src="../js/msg.js"></script>
+	<script type="text/javascript" src="../js/public.js"></script>
+	<script type="text/javascript">
+	// 启用轮播图
+		$(function() {
+			$("#slide").kinMaxShow({
+				height:350,
+				intervalTime:1,
+				button:{           
+		            normal:{
+		            	width:'8px',
+		            	height:'8px',
+		            	lineHeight:'8px',
+		            	left:'230px',
+		            	bottom:'12px',
+		            	background:'#fff',
+		            	'border-radius':'4px',
+		            	marginRight:'10px',
+		            	border:'0px'
+		            },
+		            focus:{background:'#b8243b',border:'0px'}
+				}
+			});
+		});
+	</script>
+</body>
+</html>

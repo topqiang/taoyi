@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/public.css">
+	<link rel="stylesheet" type="text/css" href="../css/header.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../css/self.css">
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<style type="text/css">
+		
+	</style>
+	<title>拍卖订单管理</title>
+</head>
+<body>
+	<!-- 头部start -->
+	<header>
+		<div class="width macen title">
+			<span class="fl">淘艺</span>
+			<span class="fr mar40">
+				静雅轩<a href="login.html" class="fcred">[退出]</a>
+			</span>
+		</div>
+	</header>
+	<!-- 头部end -->
+	<!-- 搜索 start -->
+	<div class="width macen topsearch">
+		<a href="index.html"><div class="logo fl"></div></a>
+		<div class="search mat30">
+			<ul class="flp fs14 fcred">
+				<li class="pa510 active">拍品</li>
+				<li class="pa510">易物商品</li>
+				<li class="pa510">专场</li>
+				<li class="pa510">作者</li>
+				<li class="pa510">活动</li>
+			</ul>
+			<div>
+				<input type="text" class="bored2 text_search"><button class="do_search active fs16 fw">搜索</button>
+			</div>
+		</div>
+		<div class="play fr">
+			<ul class="frp">
+				<li><a href="self.html" class="fcred">我的淘艺<span class="disib"></span></a></li>
+				<li><a href="inform.html" class="fcred">消息</a></li>
+				<li><a href="strcollet.html" class="fcred">收藏夹</a></li>
+				<li><a href="javascript:publish()" class="fcred">发布</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 搜索 end -->
+
+
+	<!-- 页面主体 -->
+	<div class="main macen width">
+		<!-- 导航条 start -->
+		<nav class="nav">
+			<ul class="flp">
+				<li class="wai">
+					<a href="#"><span></span>商品分类</a>
+				</li>
+				<li class="wai"><a href="index.html">首页</a></li>
+				<li class="wai"><a href="auction.html">拍卖</a></li>
+				<li class="wai"><a href="barter.html">易物</a></li>
+				<li class="wai"><a href="stretch.html">活动</a></li>
+				<li class="wai bgred"><a href="download.html">APP下载</a></li>
+			</ul>
+		</nav>
+		<div class="boe31 manager ovhid">
+			<div class="wi970 fr bole31">
+				<div class="self_label">
+					<p class="self_title"><a href="#">拍卖管理</a><a href="#">>拍卖订单管理</a></p>
+				</div>
+				<div class="waitlabel pore">
+					<p class="fs14 poab"><a href="#" class="disib pad0-20">竞拍订单</a><a href="#" class="disib pad0-20">拍卖订单</a><a href="#" class="disib pad0-20 active">全部</a></p>
+				</div>
+				<div class="pad0-30">
+					<table class="fs16 textcen lh45 billlist" style="width:100%;">
+						<tr>
+							<td>订单编号</td>
+							<td>订单对方</td>
+							<td>订单类型</td>
+							<td>订单状态</td>
+							<td>查看详情</td>
+						</tr>
+						<tr>
+							<td>1365853215</td>
+							<td>古玩收藏爱好者</td>
+							<td>拍卖订单</td>
+							<td>已完成</td>
+							<td><a href="aucordinfo.html" class="updbtn">查看详情</a></td>
+						</tr>
+						<tr>
+							<td>1365853215</td>
+							<td>古玩收藏爱好者</td>
+							<td>竞拍订单</td>
+							<td>已完成</td>
+							<td><a href="aucordinfo.html" class="updbtn">查看详情</a></td>
+						</tr>
+						<tr>
+							<td>1365853215</td>
+							<td>古玩收藏爱好者</td>
+							<td>拍卖订单</td>
+							<td>已完成</td>
+							<td><a href="aucordinfo.html" class="updbtn">查看详情</a></td>
+						</tr>
+						<tr>
+							<td>1365853215</td>
+							<td>古玩收藏爱好者</td>
+							<td>竞拍订单</td>
+							<td>已完成</td>
+							<td><a href="aucordinfo.html" class="updbtn">查看详情</a></td>
+						</tr>
+						<tr>
+							<td>1365853215</td>
+							<td>古玩收藏爱好者</td>
+							<td>拍卖订单</td>
+							<td>已完成</td>
+							<td><a href="aucordinfo.html" class="updbtn">查看详情</a></td>
+						</tr>
+						<tr>
+							<td>1365853215</td>
+							<td>古玩收藏爱好者</td>
+							<td>竞拍订单</td>
+							<td>已完成</td>
+							<td><a href="aucordinfo.html" class="updbtn">查看详情</a></td>
+						</tr>
+					</table>
+					<!-- 分页  start -->
+					<div id="page" class="fr mat30 mar40"></div>
+					<!-- 分页  end -->
+				</div>
+			</div>
+			<!-- 左侧工具条start -->
+			<div class="nav_left">
+				<ul class="fs16 pnav">
+					<li class="bobe31 pore padl70"><div class="sicon homeb poab"></div><a href="#">个人中心</a></li>
+					<li class="bobe31 pore padl70 navactive" for="playb"><div class="sicon playb poab"></div>账户管理<span class="fs16 rotate">></span></li>
+					<li class="bobe31" name="playb">
+						<ul class="childnav">
+							<a href="#"><li class="padl70 ma10-0 cnavactive">付款充值</li></a>
+							<a href="#"><li class="padl70 ma10-0">提现申请</li></a>
+							<a href="#"><li class="padl70 ma10-0">保证金冻结查询</li></a>
+							<a href="#"><li class="padl70 ma10-0">账单查询</li></a>
+						</ul>
+					</li>
+					<li class="bobe31 pore padl70" for="sgb"><div class="sicon sgb poab"></div>商品管理<span class="fs16 rotate">></span></li>
+					<li class="bobe31 disn" name="sgb">
+						<ul class="childnav">
+							<a href="#"><li class="padl70 ma10-0 cnavactive">商品资料库</li></a>
+							<a href="#"><li class="padl70 ma10-0">待上传商品</li></a>
+							<a href="#"><li class="padl70 ma10-0">已上传商品</li></a>
+							<a href="#"><li class="padl70 ma10-0">模板</li></a>
+						</ul>
+					</li>
+					<li class="bobe31 pore padl70" for="ywb"><div class="sicon ywb poab"></div>易物管理<span class="fs16 rotate">></span></li>
+					<li class="bobe31 disn" name="ywb">
+						<ul class="childnav">
+							<a href="#"><li class="padl70 ma10-0 cnavactive">易物商品管理</li></a>
+							<a href="#"><li class="padl70 ma10-0">易物申请管理</li></a>
+							<a href="#"><li class="padl70 ma10-0">易物订单管理</li></a>
+							<a href="#"><li class="padl70 ma10-0">易物评价管理</li></a>
+						</ul>
+					</li>
+					<li class="bobe31 pore padl70" for="pgb"><div class="sicon pgb poab"></div>拍卖管理<span class="fs16 rotate">></span></li>
+					<li class="bobe31 disn" name="pgb">
+						<ul class="childnav">
+							<a href="#"><li class="padl70 ma10-0 cnavactive">送拍管理</li></a>
+							<a href="#"><li class="padl70 ma10-0">专场管理</li></a>
+							<a href="#"><li class="padl70 ma10-0">竞拍管理</li></a>
+							<a href="#"><li class="padl70 ma10-0">拍卖订单管理</li></a>
+							<a href="#"><li class="padl70 ma10-0">拍卖评价管理</li></a>
+						</ul>
+					</li>
+					<li class="bobe31 pore padl70" for="hgb"><div class="sicon hgb poab"></div>活动管理<span class="fs16 rotate">></span></li>
+					<li class="bobe31 disn" name="hgb">
+						<ul class="childnav">
+							<a href="#"><li class="padl70 ma10-0 cnavactive">发布新活动</li></a>
+							<a href="#"><li class="padl70 ma10-0">已发布的活动管理</li></a>
+							<a href="#"><li class="padl70 ma10-0">我上传的活动图片</li></a>
+							<a href="#"><li class="padl70 ma10-0">我提交的活动文章</li></a>
+						</ul>
+					</li>
+					<li class="bobe31 pore padl70"><div class="sicon msgb poab"></div><a href="#">消息管理</a></li>
+					<li class="bobe31 pore padl70" for="infob"><div class="sicon infob poab"></div>个人资料管理<span class="fs16 rotate">></span></li>
+					<li class="bobe31 disn" name="infob">
+						<ul class="childnav">
+							<a href="#"><li class="padl70 ma10-0 cnavactive">完善个人资料</li></a>
+							<a href="#"><li class="padl70 ma10-0">认证管理</li></a>
+							<a href="#"><li class="padl70 ma10-0">收货地址</li></a>
+							<a href="#"><li class="padl70 ma10-0">权限查询</li></a>
+							<a href="#"><li class="padl70 ma10-0">个人页面预览</li></a>
+						</ul>
+					</li>
+					<li class="bobe31 pore padl70" for="zfb"><div class="sicon zfb poab"></div>增值服务<span class="fs16 rotate">></span></li>
+					<li class="bobe31 disn" name="zfb">
+						<ul class="childnav">
+							<a href="#"><li class="padl70 ma10-0 cnavactive">VIP会员</li></a>
+							<a href="#"><li class="padl70 ma10-0">商户合作</li></a>
+						</ul>
+					</li>
+					<li class="bobe31 pore padl70" for="scjb"><div class="sicon scjb poab"></div>收藏夹&nbsp;&nbsp;&nbsp;&nbsp;<span class="fs16 rotate">></span></li>
+					<li class="bobe31 disn" name="scjb">
+						<ul class="childnav">
+							<a href="#"><li class="padl70 ma10-0 cnavactive">拍卖专场</li></a>
+							<a href="#"><li class="padl70 ma10-0">店铺</li></a>
+							<a href="#"><li class="padl70 ma10-0">拍品</li></a>
+							<a href="#"><li class="padl70 ma10-0">易物商品</li></a>
+							<a href="#"><li class="padl70 ma10-0">活动</li></a>
+						</ul>
+					</li>
+					<li class="bobe31 pore padl70" for="setb"><div class="sicon setb poab"></div>设置&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="fs16 rotate">></span></li>
+					<li class="bobe31 disn" name="setb">
+						<ul class="childnav">
+							<a href="#"><li class="padl70 ma10-0 cnavactive">账户安全</li></a>
+							<a href="#"><li class="padl70 ma10-0">绑定第三方账号</li></a>
+							<a href="#"><li class="padl70 ma10-0">关于淘艺</li></a>
+							<a href="#"><li class="padl70 ma10-0">帮助中心</li></a>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!-- 左侧工具条end -->
+		</div>
+	</div>
+	<!-- footer start -->
+	<footer>
+		<ul class="width macen flp out">
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">关于</span></li>
+					<li><a href="#">关于淘艺</a></li>
+					<li><a href="#">版权声明</a></li>
+					<li><a href="#">关于隐私</a></li>
+					<li><a href="#">免责声明</a></li>
+					<li><a href="#">网站地图</a></li>
+					<li><a href="#">诚聘英才</a></li>
+				</ul>
+			</li>
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">栏目</span></li>
+					<li><a href="#">淘艺易购</a></li>
+					<li><a href="#">淘艺拍卖</a></li>
+					<li><a href="#">淘艺活动</a></li>
+				</ul>
+			</li>
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">帮助</span></li>
+					<li><a href="#">淘艺规则</a></li>
+					<li><a href="#">常见问题</a></li>
+					<li><a href="#">帮助中心</a></li>
+				</ul>
+			</li>
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">联系</span></li>
+					<li><a href="#">在线提问</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">淘艺微博</a></li>
+					<li><a href="#">淘艺微信</a></li>
+				</ul>
+			</li>
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">服务</span></li>
+					<li><a href="#">推广服务</a></li>
+					<li><a href="#">在线展览服务</a></li>
+					<li><a href="#">艺术品定制服务</a></li>
+				</ul>
+			</li>
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">友情链接</span></li>
+					<li><a href="#">搜藏网</a></li>
+					<li><a href="#">有画网</a></li>
+					<li><a href="#">壹号收藏</a></li>
+					<li><a href="#">中华丹青网</a></li>
+					<li><a href="#">博雅艺术院</a></li>
+					<li><a href="#">中国楷书网</a></li>
+					<li><a href="#" class="more">更多>></a></li>
+				</ul>
+			</li>
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">版权信息</span></li>
+					<li class="copyright">淘艺会员所发布展示的“作品”“文章”版权归原作者所有，任何商业用途均须联系作者。如未经授权用作他处，作者将保留追究侵权者法律责任的权利。Copyright 2010-2020宁波淘艺文化有限公司宁波十月Inc. 版权所有浙ICP备10206008号增值电信业务经营许可证浙B2-20100409</li>
+				</ul>
+			</li>
+		</ul>
+	</footer>
+	<!-- footer end  -->
+	<script type="text/javascript" src="../js/layer/layer.js"></script>
+	<script type="text/javascript" src="../js/msg.js"></script>
+	<script type="text/javascript" src="../js/public.js"></script>
+	<script type="text/javascript" src="../js/laypage/laypage.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			laypage({
+			    cont: 'page', //容器。值支持id名、原生dom对象，jquery对象,
+			    pages: 101, //总页数
+			    skin: '#c2a880',
+			    first:1,
+			    last:101,
+			    groups: 4 //连续显示分页数
+			});
+		});
+	</script>
+</body>
+</html>

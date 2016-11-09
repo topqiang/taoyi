@@ -1,0 +1,127 @@
+.pad10-0{padding:10px 0px;}
+.pad20-0{padding:20px 0px;}
+.padb30{padding-bottom: 30px;}
+.padb100{padding-bottom: 100px;}
+.padt10{padding-top:10px;}
+.padt12{padding-top:12px;}
+.padt20{padding-top:20px;}
+.pad10{padding:10px;}
+.mar0-20{margin:0 20px;}
+.mar10-30{margin:10px 30px;}
+.mar20-30{margin:20px 30px;}
+.mar35-30{margin:35px 30px;}
+.mar0-30-20{margin: 0px 30px 20px;}
+.ma10{margin:10px;}
+.h66{height: 66px !important;}
+.h50{height: 50px;}
+.h40{height: 40px;}
+.h20{height: 20px;}
+.h16{height: 16px;}
+.h8{height:8px;}
+.lh20{line-height: 20px;}
+.wid8{width: 8px !important;}
+.wid50{width: 50px !important;}
+.wid66{width: 66px !important;}
+.wid100{width: 100px !important;}
+.wid140{width: 140px !important;}
+.wid700{width: 700px !important;}
+.wid725{width: 725px !important;}
+.w400-h100{width: 400px;height: 100px;}
+.w200-h50{width: 200px;height: 50px;}
+.w213-h213{width: 213px;height: 213px;}
+.w389-h197{width: 389px;height: 197px;}
+.w1185-h300{width:1185px;height:300px;}
+.ccc{color: #ccc;}
+.input-txt tr td input{
+    padding: 10px;
+    border-top: 1px solid #e3e3e3;
+    font-size: 16px;
+    width: 265px;
+    margin-left: 10px;
+}
+.select tr td select{height:auto;font-size: 16px;color:#ccc;}
+.wid tr td:nth-child(3){width: 200px;}
+.wid tr td:nth-child(2){width: 200px;}
+.C-7e{color: #7e7e7e;}
+.C-red{color: red;}
+.updbtn0{
+    padding: 0px 30px;
+    width: 250px;
+    line-height: 50px;
+    background: #c12736;
+    color: #fff;
+    border: 1px solid #c12736;
+    font-size: 20px;
+}
+.waitlabel0{
+    padding: 10px  0px;
+    margin: 0 20px;
+    height: 38px;
+}
+.frt{float:right;bottom:20px;right:0px;}
+.c-ye{color:#B28750;}
+.bk-ye{background:#B28750;}
+.bk-459{background: #F4F5F9;}
+.bk-ju1{background:#FE4102;}
+.bk-ju2{background:#FD5A21;}
+.bk-ju3{background:#F88F3B;}
+.bk-ye1{background:#FFB505;}
+.bk-red{background:#C2272D;}
+.c-wt{color:#fff;}
+.bo-ye{border:1px solid #B28750;}
+.c-ye.on{color:#fff;background:#B28750;}
+.close-m{
+    color: #fff;
+    top: 12.5px;
+    width: 15px;
+    line-height: 15px;
+    text-align: center;
+    height: 15px;
+    cursor: pointer;
+    right: 12.5px;
+}
+.localzc1 tr{
+    border-bottom: 1px solid #e3e4e5;
+    line-height: 50px;
+    height: 50px;
+    display: inline-table;
+    width: 450px;
+}
+.input-txt1 tr td input{
+    padding: 5px;
+    font-size: 12px;
+    width: 100px;
+    margin-left: 20px;
+}
+.select1 tr td select{
+    height: auto;
+    font-size: 12px;
+    color: #ccc;
+}
+.bk-size{
+    background-size:1185px 300px;
+    background-repeat:no-repeat;
+    width: 1185px;
+    height: 300px;
+}
+.br25{border-radius:25px;}
+.updbtn1{
+    padding: 0px 11px;
+    width: 140px;
+    line-height: 50px;
+    background: #c12736;
+    color: #fff;
+    border: 1px solid #c12736;
+    font-size: 16px;
+}
+.pstatus-b{
+    border-bottom:1px solid #c2a880;
+    padding-bottom: 5px;
+}
+.active0{
+    background: #B28750;
+    color: #fff;
+}
+.godbag0{
+    margin-top: 30px;
+}

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/public.css">
+	<link rel="stylesheet" type="text/css" href="../css/header.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../css/info.css">
+	<link rel="stylesheet" type="text/css" href="../css/xq_slide.css">
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<style type="text/css">
+		.layui-layer-page .layui-layer-content {
+		    height: 155px !important;
+		}
+		.layui-layer-page .layui-layer-btn {
+		    width: 355px;
+			margin: 0px auto;
+			padding-top: 0px !important;
+		}
+	</style>
+	<title>拍品详情</title>
+</head>
+<body>
+	<!-- 头部start -->
+	<header>
+		<div class="width macen title">
+			<span class="fl">淘艺</span>
+			<span class="fr mar40">
+				静雅轩<a href="login.html" class="fcred">[退出]</a>
+			</span>
+		</div>
+	</header>
+	<!-- 头部end -->
+	<!-- 搜索 start -->
+	<div class="width macen topsearch">
+		<a href="index.html"><div class="logo fl"></div></a>
+		<div class="search mat30">
+			<ul class="flp fs14 fcred">
+				<li class="pa510 active">拍品</li>
+				<li class="pa510">易物商品</li>
+				<li class="pa510">专场</li>
+				<li class="pa510">作者</li>
+				<li class="pa510">活动</li>
+			</ul>
+			<div>
+				<input type="text" class="bored2 text_search"><button class="do_search active fs16 fw">搜索</button>
+			</div>
+		</div>
+		<div class="play fr">
+			<ul class="frp">
+				<li><a href="self.html" class="fcred">我的淘艺<span class="disib"></span></a></li>
+				<li><a href="inform.html" class="fcred">消息</a></li>
+				<li><a href="strcollet.html" class="fcred">收藏夹</a></li>
+				<li><a href="javascript:publish()" class="fcred">发布</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 搜索 end -->
+	
+	
+	<!-- 页面主体 -->
+	<div class="main macen width pore">
+		<!-- 导航条 start -->
+		<nav class="nav">
+			<ul class="flp">
+				<li class="wai bgred">
+					<a href="#"><span>拍品</span>分类</a>
+				</li>
+				<li class="wai"><a href="index.html"><span id="span">首页</span></a></li>
+				<li class="wai"><a href="auction.html">拍卖</a></li>
+				<li class="wai"><a href="barter.html">易物</a></li>
+				<li class="wai"><a href="stretch.html">活动</a></li>
+				<li class="wai"><a href="download.html">APP下载</a></li>
+			</ul>
+		</nav>
+		<!-- 导航条 end -->
+		<!-- 面包屑导航  start -->
+		<div class="directories">当前目录<span><a href="index.html">首页</a></span><a href="auction.html">>拍卖</a><span><a href="auction.html">>西画雕塑</a></span><span><a href="auction.html">>油画</a></span><a href="auction.html">>湖北天然绿松石念珠</a></span></div>
+		<!-- 面包屑导航  end -->
+		<div class="width ovhid mab30">
+			<!-- 右边 窗口 start -->
+			<div class="wi235 fr boe31 h520 textcen">
+				<div class="paytitle">出价记录<span>(25)</span></div>
+				<table class="payinfo">
+					<tr>
+						<th>出价次数</th>
+						<th>用户</th>
+						<th>金额</th>
+						<th>出价时间</th>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>古*</td>
+						<td>5600</td>
+						<td>12:20:56</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>古*</td>
+						<td>5600</td>
+						<td>12:20:56</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>古*</td>
+						<td>5600</td>
+						<td>12:20:56</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>古*</td>
+						<td>5600</td>
+						<td>12:20:56</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>古*</td>
+						<td>5600</td>
+						<td>12:20:56</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>古*</td>
+						<td>5600</td>
+						<td>12:20:56</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>古*</td>
+						<td>5600</td>
+						<td>12:20:56</td>
+					</tr>
+				</table>
+				<div class="changpage ovhid">
+					<div class="next fr">></div>
+					<div class="prev fr"><</div>
+				</div>
+				<div class="codebag">
+					<div>扫一扫下载陶艺APP</div>
+					<div class="code macen">
+						<img src="../img/code.png">
+					</div>
+				</div>
+			</div>
+			<!-- 右边窗口end -->
+			<div class="wi900 h500 boe31 pad10">
+				<div class="disib">
+					<div class="pore impimg">
+						<img src="../img/impro_good.png">
+						<div class="poab text">
+							<span class="paisdb icon fs16"> 距结束：00天 08时 01分 56秒+延时</span>
+						</div>
+					</div>
+					<div class="smimg">
+						<img src="../img/good_s1.png" class="activ" onclick="xq_slide(0)">
+						<img src="../img/good_s2.png"  onclick="xq_slide(1)">
+						<img src="../img/good_s3.png"  onclick="xq_slide(2)">
+						<img src="../img/good_s4.png"  onclick="xq_slide(3)">
+						<img src="../img/good_s5.png"  onclick="xq_slide(4)">
+					</div>
+					<!-- 图片轮播图   start -->
+					<div class="xq_slide_out">
+						<div class="xq_slide_in">
+							<div class="xq_content">
+								<div class="xq_content_right">
+									<h2>湖北天然绿松石念珠</h2>
+								</div>
+								<div class="xq_content_left">
+									<div class="xq_slide">
+										<ul class="xq_imgbag">
+											<li><img src="../img/rp.jpg"></li>
+											<li><img src="../img/rp2.jpg"></li>
+											<li><img src="../img/rp3.jpg"></li>
+											<li><img src="../img/rp4.jpg"></li>
+											<li><img src="../img/rp.jpg"></li>
+											<li><img src="../img/rp2.jpg"></li>
+											<li><img src="../img/rp3.jpg"></li>
+											<li><img src="../img/rp4.jpg"></li>
+											<li><img src="../img/rp.jpg"></li>
+											<li><img src="../img/rp4.jpg"></li>
+											<li><img src="../img/rp.jpg"></li>
+										</ul>
+									</div>
+									<div class="xq_prev xq_btn"><</div>
+									<div class="xq_next xq_btn">></div>
+								</div>
+							</div>
+							<div class="xq_slide_close">X</div>
+						</div>
+					</div>
+					<!-- 图片轮播图  end -->
+				</div>
+				<div class="disib wi500 fr">
+					<div class="borbd goodid pore">
+						<h2 class="disib">湖北天然绿松石念珠</h2>
+						<p>编号：<span>20154564595000</span></p>
+						<img src="../img/colock.png" class="poab" onclick="setmsg()">
+					</div>
+					<div class="borbd goodplay">
+						<div><label>当前价格：</label><span class="fcred mar10 disib">¥</span><span class="fs26 fcred">6800</span></div>
+						<div class="input_price"><label>出价金额：</label><input type="text" name="price" ></div>
+						<div class="paybtn">
+							<span class="disib wtpay">委托竞价</span>
+							<span class="disib cgpay">常规竞价</span>
+						</div>
+					</div>
+					<div class="borbd clum">
+						<p><span>竞价阶梯：100元</span><span>起拍价：2500</span></p>
+						<p><span>速胜价：12500</span><span>有无保留价：无</span></p>
+					</div>
+					<div class="borbd clum">
+						<p><span>出价次数：1250</span><span>当前领先：古玩收藏家</span></p>
+					</div>
+					<div class="borbd clum">
+						<p><span>开始时间：2016/12/01 11:22:22</span><span>结束时间：2016/12/30 11:22:22</span></p>
+					</div>
+					<div class=" clum">
+						<span class="fcred collet icon"></span>收藏
+						<span class="fcred share icon"></span>分享
+						<span class="fcred jubao icon"></span>举报
+						<span class="fcred weiguan icon">123</span>围观
+					</div>
+				</div>
+			</div>
+			<!-- 拍品详情  start -->
+			<div class="boe31 mat30 ppinfo">
+				<h3>拍品详情：</h3>
+				<table class="ppwid">
+					<tr>
+						<td>编号：877111111</td>
+						<td>尺寸：长68cm 宽：135cm</td>
+						<td>题材：山水</td>
+					</tr>
+					<tr>
+						<td>年代：当代</td>
+						<td>装裱：横幅</td>
+						<td>形式：中堂</td>
+					</tr>
+					<tr>
+						<td>材质：纸本</td>
+						<td>完残状况：污痕 折痕 边有撕口 缺肉</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td colspan="3">备注：此件作品系艺术家青年时代创作，用色明快，布局严谨作品面积约为8.26平尺</td>
+					</tr>
+				</table>
+				<div><h3>承诺：</h3>
+					<span>1、运费担负：卖家包邮</span>
+					<span>2、承诺发货上货物运输或相关保险</span>
+					<span>3、承诺商品与描述不符退货</span>
+				</div>
+				<div><h3>委托竞价：</h3>输入设置委托竞价金额，当“最低领先价格”小于或等于你所设置的“委托竞价金额”时，系统将为您自动出价。
+委托竞价金额改为您可以接受的最高价格，如果有其他客户出价，系统将会为您自动加价；此价格应该为您能够承受的价格，有可能竞价会到达此价格。竞价过程中，如果 “委托竞价”和“常规出价”出价相同，那么系统将接受“常规出价”方式出价；如果此出价是最终成交价格，那么是采用“常规出价”方式出价的客户买到这件拍品。</div>
+				<div><h3>敬告：</h3>您出价行为表明已认同淘艺平台的拍卖规则</div>
+			</div>
+			<!-- 拍品详情  end -->
+		</div>
+		<a href="#"><img src="../img/jpb.jpg" class="ma50-0 width"></a>
+	</div>
+	<!-- 页面主体结束 -->
+	<!-- footer start -->
+	<footer>
+		<ul class="width macen flp out">
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">关于</span></li>
+					<li><a href="#">关于淘艺</a></li>
+					<li><a href="#">版权声明</a></li>
+					<li><a href="#">关于隐私</a></li>
+					<li><a href="#">免责声明</a></li>
+					<li><a href="#">网站地图</a></li>
+					<li><a href="#">诚聘英才</a></li>
+				</ul>
+			</li>
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">栏目</span></li>
+					<li><a href="#">淘艺易购</a></li>
+					<li><a href="#">淘艺拍卖</a></li>
+					<li><a href="#">淘艺活动</a></li>
+				</ul>
+			</li>
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">帮助</span></li>
+					<li><a href="#">淘艺规则</a></li>
+					<li><a href="#">常见问题</a></li>
+					<li><a href="#">帮助中心</a></li>
+				</ul>
+			</li>
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">联系</span></li>
+					<li><a href="#">在线提问</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">淘艺微博</a></li>
+					<li><a href="#">淘艺微信</a></li>
+				</ul>
+			</li>
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">服务</span></li>
+					<li><a href="#">推广服务</a></li>
+					<li><a href="#">在线展览服务</a></li>
+					<li><a href="#">艺术品定制服务</a></li>
+				</ul>
+			</li>
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">友情链接</span></li>
+					<li><a href="#">搜藏网</a></li>
+					<li><a href="#">有画网</a></li>
+					<li><a href="#">壹号收藏</a></li>
+					<li><a href="#">中华丹青网</a></li>
+					<li><a href="#">博雅艺术院</a></li>
+					<li><a href="#">中国楷书网</a></li>
+					<li><a href="#" class="more">更多>></a></li>
+				</ul>
+			</li>
+			<li class="p_li">
+				<ul class="inner">
+					<li><span class="h3">版权信息</span></li>
+					<li class="copyright">淘艺会员所发布展示的“作品”“文章”版权归原作者所有，任何商业用途均须联系作者。如未经授权用作他处，作者将保留追究侵权者法律责任的权利。Copyright 2010-2020宁波淘艺文化有限公司宁波十月Inc. 版权所有浙ICP备10206008号增值电信业务经营许可证浙B2-20100409</li>
+				</ul>
+			</li>
+		</ul>
+	</footer>
+	<!-- footer end  -->
+	<script type="text/javascript" src="../js/layer/layer.js"></script>
+	<script type="text/javascript" src="../js/msg.js"></script>
+	<script type="text/javascript" src="../js/public.js"></script>
+	<script type="text/javascript" src="../js/xq_slide.js"></script>
+	<script type="text/javascript">
+	// 启用轮播图
+		$(function() {
+			// xq_slide();
+		});
+	</script>
+</body>
+</html>

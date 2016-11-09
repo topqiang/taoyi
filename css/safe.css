@@ -1,0 +1,80 @@
+@charset "utf-8";
+header{
+	background: #fff; 
+}
+.top .reg_log{
+	float: right;
+	font-size: 16px;
+	color: #ccc;
+}
+.top .reg_log a{
+	padding: 0px 10px;
+	color: #333;
+}
+.hr{
+	width: 330px;
+	height: 1px;
+	background: #ddd;
+	margin: 90px auto;
+	position: relative;
+}
+.border{
+	width: 48px;
+	height: 48px;
+	border-radius: 24px;
+	position: absolute;
+}
+.border:nth-child(1){
+	top: -25px;
+	left: -25px;
+}
+.border:nth-child(2){
+	top: -25px;
+	left: 140px;
+}
+.border:nth-child(3){
+	top: -25px;
+	right: -25px;
+}
+.border span{
+	margin: 10px -10px;
+    font-size: 14px;
+    width: 70px;
+    display: block;
+    color: #858484;
+    text-align: center;
+}
+.active{
+	border: 1px solid #dd8890;
+}
+.active span{
+    color: #c12736;
+}
+.active .arc{
+	background: #c12736;
+}
+.arc{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 20px;
+	background: #ccc;
+	margin: 4px auto;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+}
+.safe_form{
+	width: 600px;
+	margin: 10px auto;
+}
+.safe_form li{
+	margin-top: 30px;
+}
+.safe_form li input{
+	border: 1px solid #dddedd;
+	width: 460px;
+}
+#code{
+	width: 295px;
+}

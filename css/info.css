@@ -1,0 +1,298 @@
+.paytitle{
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px solid #e3e3e3;
+	padding-left: 8px;
+	font-weight: 600;
+	text-align: left;
+	font-size: 14px;
+}
+.payinfo tr{
+	height: 30px;
+	padding-left: 8px;
+	line-height: 30px;
+}
+.payinfo tr th,td{
+	font-weight: 500;
+}
+.payinfo tr td:nth-child(3){
+	color: #b8243b;
+}
+.changpage{
+	border-bottom: 1px solid #e3e3e3;
+}
+.changpage div{
+	color: #fff;
+	background: #b6b6b6;
+	width: 28px;
+	cursor: pointer;
+	font-size: 20px;
+	height: 28px;
+	margin: 10px 20px;
+}
+.codebag div{
+	margin-top: 14px;
+}
+.codebag .code{
+	padding: 10px;
+	height: 120px;
+	width: 120px;
+	box-shadow: 0px 0px 5px #ccc;
+}
+.codebag .code img{
+	height: 120px;
+	width: 120px;
+}
+.impimg{
+	width: 380px;
+	height: 380px;
+	overflow: hidden;
+}
+.impimg img{
+	width: 380px;
+	height: 380px;
+}
+.impimg .text{
+	bottom: 0px;
+    height: 45px;
+    left: 0px;
+	width: 100%;
+	background: rgba(168,21,36,0.8);
+    line-height: 45px;
+    color: #fff;
+}
+.wostar{
+	line-height: 20px;
+	text-align: center;
+	color: #e24c3f !important;
+}
+.strimg {
+	width: 200px;
+	height: 280px;
+	overflow: hidden;
+}
+.strimg img{
+	width: 200px;
+	height: 280px;
+}
+.smimg{
+	margin-top: 20px;
+}
+.smimg img{
+	width: 70px;
+	height: 70px;
+	cursor: pointer;
+	margin-left: 4px;
+}
+.smimg img:first-child{
+	margin-left:0px; 
+}
+.smimg img.activ{
+	border: 1px solid #dda95f;
+	width: 68px;
+	height: 68px;
+}
+/*.goodid{
+	height: 100px;
+}*/
+.goodid h2{
+	margin-top: 20px;
+}
+.goodid p{
+	margin: 10px 0px;
+}
+.goodid p span{
+	color: #000;
+}
+.goodid img{
+	width: 100px;
+	height: 30px;
+	top: 25px;
+	cursor: pointer;
+	right: 20px;
+}
+.goodplay > div{
+	margin-top: 10px;
+}
+.input_price input{
+	border: 1px solid #e3e3e3;
+	padding: 5px;
+}
+.paybtn span{
+	width: 170px;
+	height: 40px;
+	cursor: pointer;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	line-height: 40px;
+	margin-right:15px; 
+	border: 1px solid #a81524;
+}
+.paybtn{
+	padding: 20px 0px;
+	margin-bottom: 20px;
+}
+.paybtn .wtpay{
+	color: #a81524;
+}
+.wtpay:hover{
+	background: #a81524;
+	color: #fff;
+}
+.paybtn .cgpay{
+	color: #a81524;
+}
+.cgpay:hover{
+	background: #a81524;
+	color: #fff;
+}
+.mego{
+	display: inline-block;
+	height: 40px;
+	color: #fff;
+	background: #a81524;
+	width: 240px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	bottom: 20px;
+	margin-bottom: 20px;
+}
+.mego:hover{
+	background: #f00;
+}
+.strmego{
+	width: 120px;
+	height: 30px;
+	display: inline-block;
+	color: #fff;
+	background: #a81524;
+	text-align: center;
+	margin-right: 50px;
+	line-height: 30px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.strbtn{
+	bottom: 15px;
+}
+.clum{
+	line-height: 40px;
+}
+.clum p span{
+	display: inline-block;
+	width: 220px;
+}
+.ppinfo{
+	padding: 30px 10px;
+	margin-bottom: 20px;
+}
+.ppwid{
+	width: 90%;
+	margin:20px 80px;
+}
+.ppwid tr td{
+	height: 50px;
+	border: 1px solid #e3e3e3;
+	padding-left: 40px;
+	line-height: 50px;
+}
+.ppwid tr:last-child td{
+	height: 80px;
+	line-height: 80px;
+}
+.ppinfo div{
+	width: 730px;
+	margin: 50px 120px; 
+	position: relative;
+}
+.ppinfo div span{
+	margin-right:50px; 
+}
+.ppinfo div h3{
+	position: absolute;
+	left: -120px;
+}
+.atibag{
+	width: 700px;
+	height: 190px;
+}
+.atibags{
+	width: 380px;
+	height: 165px;
+	margin-left: 15px;
+}
+.atibags p,.atibag p{
+	line-height: 26px;
+}
+.atical{
+	margin-top: 30px
+}
+.aticals{
+	margin-top: 20px;
+}
+.aticals img{
+	width: 135px;
+	height: 135px;
+}
+/*.atibags p{
+	line-height: 20px;
+}*/
+.atibags p.aticon{
+	margin-top: 5px;
+	padding: 5px 10px;
+}
+.strpho{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.strpho5 .strpho:nth-child(5n+1){
+	margin-left: 0px; 
+}
+.strpho6 .strpho:nth-child(6n+1){
+	margin-left: 0px; 
+}
+.strpho6 .strpho{
+	margin-left: 32px;
+}
+.strpho img{
+	width: 160px;
+	height: 170px;
+}
+.strpho p{
+	height: 30px;
+	line-height: 30px;
+	padding-left: 5px;
+}
+.atical img{
+	width: 160px;
+	height: 160px;
+}
+.aticon{
+	margin-top: 15px;
+	height: 50px;
+	padding: 10px;
+	background: #f4f5f9;
+}
+/*精品店铺  start*/
+.shopinfo{
+	width: 160px;
+	line-height: 30px;
+}
+.radius{
+	width: 60px;
+	color: #ac8753;
+	border:1px solid #ac8753;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	margin: 20px auto;
+	cursor: pointer;
+	border-radius: 8px;
+}
+.radius:hover{
+	background: #ac8753;
+	color: #fff;
+}
+/*精品店铺   end*/

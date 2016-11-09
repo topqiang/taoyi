@@ -1,0 +1,15 @@
+.xq_tabs_out{margin:0;padding:0;height:45px;list-style: none;border-bottom: 2px solid #ccc;}
+.xq_tabs_out li{
+	height:45px;
+	line-height:40px;
+	float: left;
+	width: 160px;
+	text-align: center;
+	cursor: pointer;
+	background: #fff;
+	color: #000;
+}
+.xq_tabs_out .xq_tabs_activ{border: 2px solid #dbdcde;color: #000;border-bottom:none;}
+.xq_tabs_content{width: 930px;}
+.xq_tabs_content .xq_tabs_area{width: 926px;display: none;float: left;border:2px solid #ccc;border-top: 0px;}
+.xq_tabs_content .xq_tabs_area:first-child{display: block;}

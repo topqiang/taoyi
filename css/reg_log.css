@@ -1,0 +1,166 @@
+@charset "utf-8";
+body{background: #f2f2f2;}
+.top{
+	width: 900px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0px auto;
+	padding: 40px 0px 20px;
+}
+.top .logo{
+	width: 160px;
+	height: 50px;
+	border-right: 1px solid #e0e0e0;
+	background: url('../img/logo.png') no-repeat;
+	background-size: 160px 50px;
+	padding-right: 20px;
+	float: left;
+}
+.top h2{
+	width: 100px;
+	margin-left: 20px;
+}
+.content{
+	width: 100%;
+	margin: 0px auto;
+}
+.regist{
+	width: 810px;
+	background: #fff;
+	border: 1px solid #dddedd;
+	margin: 40px auto;
+	position: relative;
+}
+.re-form{
+	width: 485px;
+	margin-left: 50px;
+	margin: 15px;
+}
+.re-form .title h2{
+	float: left;
+	padding-left: 40px;
+}
+.re-form .title span{
+	float: right;
+}
+.re-form .title{
+	clear: both;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+}
+.re-form .regiter{
+	width: 100%;
+	margin: 20px 40px;
+	border-right: 1px solid #dddedd;
+}
+.regiter ul li{
+	width: 405px;
+	margin-top:10px; 
+}
+ul li input{
+	width: 380px;
+	font-size: 16px;
+	height: 30;
+	line-height: 30px;
+	padding: 5px 10px;
+	border: none;
+	border-bottom: 1px solid #dddedd;
+}
+.regiter ul li .ph_code{
+	width: 200px;
+	border: 1px solid #dddedd;
+}
+.req_code{
+	background: #f5f5f5;
+	width: 100px;
+	height: 40px;
+	margin-left: 60px;
+	border: 1px solid #dddedd;
+}
+.regiter ul .commit_p{
+	margin: 50px auto 20px auto;
+}
+.commit{
+	width: 15px !important;
+	float: left;
+	color: #11cd6e;
+}
+.submit{
+	width: 300px;
+	height: 50px;
+	margin:0px 40px 50px;
+	border-radius: 4px;
+	background: #c12736;
+	color: #fff;
+	font-size: 24px;
+}
+.ot-login{
+	width: 270px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.ot-login h3{
+	text-align: center;
+	margin-top: 175px;
+}
+.ot-login div{
+	width: 220px;
+	margin: 50px auto;
+}
+.ot-login div .img{
+	width: 50px;
+	height: 50px;
+	float: left;
+	background: #f0f0f0;
+	border-radius: 25px;
+	margin: 0px 10px;
+}
+.ot-login div .img img{
+	margin: 10px 9px;
+}
+.container p{
+	font-size: 14px;
+	margin-top: 20px;
+	color: #4f4e4e;
+	text-align: center;
+	clear: both;
+}
+.container ul{
+	width: 545px;
+	margin: 0px auto;
+}
+.container ul li{
+	float: left;
+	display: block;
+	text-align: center;
+	width: 90px;
+	border-left: 1px solid #b6b6b6;
+}
+.container ul li:first-child{
+	border-left:none;
+}
+.container p{
+	padding:20px;  
+}
+.label{
+	font-size: 18px;
+	color: #ccc;
+	width: 110px;
+    display: block;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    text-align: right;
+}
+.next{
+	width: 80%;
+	height: 40px;
+	margin:40px 5% 50px;
+	border-radius: 4px;
+	background: #c12736;
+	color: #fff;
+	padding: 5px 0px;
+	font-size: 24px;
+}
